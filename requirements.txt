@@ -1,4 +1,4 @@
 streamlit
 langchain
 openai
-sqlite3
+sqlite-utils
