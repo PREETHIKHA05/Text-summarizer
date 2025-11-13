@@ -12,7 +12,7 @@ api_key=os.getenv("OPENAI_API_KEY")
 
 st.title("Text summarizer")
 st.write('Any text written can be summarized')
-text=st.text_input("Enter text to summarize:")
+text=st.text_area("Enter text to summarize:")
 summ=st.button("Summarize...")
 llm = ChatOpenAI(
     model="gpt-4o-mini",
