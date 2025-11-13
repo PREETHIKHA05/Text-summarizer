@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.env.*
+venv/
+.venv/
+ENV/
+env/
+.idea/
+.vscode/
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# --- SQLite DB ---
+*.db
+*.sqlite3
+
+# --- Logs and cache ---
+*.log
+.cache/
+logs/
+
+# --- Jupyter / temporary files ---
+*.ipynb_checkpoints
+*.tmp
+
+# --- Node.js (if you ever extend it) ---
+node_modules/
+package-lock.json
+
+# --- Misc ---
+# compiled files, backups, etc.
+*.bak
+*.swp
