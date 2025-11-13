@@ -1,4 +1,6 @@
 streamlit
 langchain
+langchain-openai
 openai
 sqlite-utils
+python-dotenv
